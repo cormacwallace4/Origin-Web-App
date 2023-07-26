@@ -1,0 +1,65 @@
+.containerSL {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.SLtitle {
+  text-align: center;
+  font-size: 55px;
+  font-weight: bold;
+  color: #333;
+  padding-top: 100px;
+  margin-bottom: 30px;
+}
+
+.location-list {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.location-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #ddd;
+  padding: 15px 0;
+  cursor: pointer;
+  width: 100%;
+}
+
+.location-name {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.location-actions {
+  display: flex;
+  align-items: center;  
+  gap: 30px;
+}
+
+.location-link {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;  
+  margin-left: 230px;
+  text-decoration: underline;
+  color: blue;
+}
+
+.location-delete {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px; 
+  margin-bottom: 1px;
+  text-decoration: underline;
+  color: red;
+}

@@ -1,0 +1,121 @@
+.trivia-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    margin: 0;
+}
+
+.trivia-container {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+    line-height: 1.6em;
+    max-width: 800px;
+    min-width: 800px;
+    border-radius: 8px;
+}
+
+.trivia-titles {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.trivia-title {
+    font-size: 55px;
+    font-weight: bold;
+    color: #333;
+    padding-top: 170px;
+    margin-bottom: 30px;
+}
+
+.trivia-subtitle {
+    font-size: 28px;
+    color: #666;
+    padding-bottom: 20px;
+}
+
+
+.question-text {
+    font-size: 36px;
+    color: #333;
+    line-height: 1.1;
+    margin-bottom: 60px;
+    margin-top: 40px;
+    font-weight: bold; 
+     border-radius: 15px;
+    border: 2px solid black;
+    padding: 30px;
+}
+
+
+.counter-container {
+    display: flex;
+    width: 100%;
+}
+
+.questions-counter {
+	margin-top: 70px;
+	margin-bottom: 50px;
+    font-size: 22px;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: rgb(192, 27, 40);
+    border: 2px solid #FFF;
+    padding: 8px;
+    border-radius: 5px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.score-counter {
+	margin-top: 70px;
+	margin-bottom: 50px;
+    font-size: 26px;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: rgb(52, 142, 63);
+    border: 2px solid #FFF;
+    padding: 8px;
+    border-radius: 5px;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+button {
+  display: block;
+  width: 60%;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  color: #fff;
+  background-color: rgb(0, 102, 255);
+  border: 2px solid white;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  display: block;
+  width: 60%;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  background-color: #fff;
+  color: rgb(0, 102, 255);
+  border: 2px solid rgb(0, 102, 255);
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
